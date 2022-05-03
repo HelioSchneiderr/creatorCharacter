@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("https://s1.1zoom.me/b5050/846/The_Witcher_3_Wild_Hunt_457663_1366x768.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    display: block;
+    background-color: #060724;
+    box-shadow: 50px 0px 10px 22px rgba(0,0,0,0.24);
+    width: 683px;
+    height: 696px;
+}
+
+.text > p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    text-align: justify;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+};
+
+
+
