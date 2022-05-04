@@ -12,12 +12,41 @@ body{
     height: 100%;
 }
 
+
+
 main{
     display: block;
     background-color: #060724;
     box-shadow: 50px 0px 10px 22px rgba(0,0,0,0.24);
     width: 683px;
     height: 696px;
+}
+
+button {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: transparent;
+    border-color: #f4511e;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+button:hover {
+    border-color:white;
+    background-color: #f4511e;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
 }
 
 .text > p{
@@ -34,6 +63,11 @@ main{
     margin-right: auto;
     font-size: 60px;
 };
+
+
+
+
+
 
 
 
