@@ -20,25 +20,62 @@ h1{
 }
 
 main{
-    display: block;
     background-color: #060724;
     box-shadow: 50px 0px 10px 22px rgba(0,0,0,0.24);
     width: 683px;
     height: 696px;
 }
 
-#questions{
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    margin-left: 115px;
-    margin-right: auto;
+button {
+    position: relative;
+    left: 265px;
+    top: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: transparent;
+    border-color: #f4511e;
+    border-radius: 20px;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    margin: 4px 2px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+button:hover {
+    border-color:white;
+    background-color: #f4511e;
+}
 
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+#questions{
+    width: 500px;
+    margin-left: 115px
+}
+
+label {
+    position: absolute;
+    left: 100px;
+    font-size: 1.5em;
+    margin-bottom: 100px;
+}
+
+.inputBox{
+    margin-bottom: 40px;
 }
 
 .inputName{
+    position: absolute;
+    margin-top: 5px;
+    color: white;
     display: flex;
-    margin-left: 130px;
+    margin-left: 174px;
     background-color: #060724;
     border: none;
     border-bottom: 1px solid white;
