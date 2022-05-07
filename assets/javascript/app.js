@@ -1,5 +1,3 @@
-alert(`DJDJDJ`)
-
 const names = document.getElementById(`name`);
 const forc = document.getElementById(`forc`);
 const int = document.getElementById(`int`);
@@ -9,17 +7,6 @@ const btnCreate = document.querySelector(".butonCreate");
 const questions = document.querySelector("#questions");
 const title = document.querySelector(".textTitle")
 
-
-names.addEventListener("keypress", (e) =>{
-    
-
-    if(e.keycode > 47 && e.keycode < 58){
-        e.preventDefault();
-    }
-        
-    
-    
-});
 
 btnCreate.addEventListener("click", ()=>{
     questions.style.display = `none`;
@@ -33,10 +20,13 @@ btnCreate.addEventListener("click", ()=>{
     let dest = des.value;
     let perso = person.value;
 
-    //Names 
+    if(force > 10){
+        forc.value = 0;
+    };
 
+    let character = `Your character is called ${name} has ${force} strength, ${dest} dexterity, ${inter} intelligence, and he sure is a guy ${perso}`
     
-
+    console.log(character)
 
 
     
