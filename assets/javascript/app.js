@@ -1,4 +1,4 @@
-
+const btnReturn = document.querySelector(".btnReturn");
 const btnCreate = document.querySelector(".butonCreate");
 const questions = document.querySelector("#questions");
 const title = document.querySelector(".textTitle")
@@ -21,7 +21,7 @@ btnCreate.addEventListener("click", () => {
         
         //style none
         questions.style.display = `none`;
-        questions.classList.add(`julio`);
+        btnCreate.style.display = "none";
         
         //Final Text
         title.textContent = " Your Character";
@@ -29,8 +29,14 @@ btnCreate.addEventListener("click", () => {
         
         //Final img
         let img = document.createElement("img");
-        img.src=`../../imagens/avatar${numberRandom(1, 5)}.png`;
+        img.src=`../../imagens/avatar${numberRandom(1, 4)}.png`;
         textP.appendChild(img);
+
+        //return
+        const retur = document.createElement("a")
+        retur.href = "../html/index.html";
+        btnReturn.appendChild(retur)
+        
 
         
 
