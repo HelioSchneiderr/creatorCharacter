@@ -5,7 +5,7 @@ const title = document.querySelector(".textTitle")
 const textP = document.querySelector(".textP")
 
 
-
+btnReturn.style.display = `none`;
 
 btnCreate.addEventListener("click", () => {
 
@@ -33,9 +33,9 @@ btnCreate.addEventListener("click", () => {
         textP.appendChild(img);
 
         //return
-        const retur = document.createElement("a")
-        retur.href = "../html/index.html";
-        btnReturn.appendChild(retur)
+        btnReturn.style.display = `block`;
+        btnCreate.style.display = `none`;
+        
         
 
         
